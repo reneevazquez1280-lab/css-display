@@ -13,6 +13,17 @@
 1. Install Live Server and Go Live to view how the webpage looks with no styling
 2. Follow directions below
 
+## Flex Container Properties
+```css
+container {
+    display: flex;
+    flex-direction: row | column;
+    justify-content: start | end | center | space-around | space-between | space-evenly;
+    align-items: start | end | center | stretch;
+    flex-wrap: wrap | nowrap;
+}
+```
+
 ## Assignment
 1. Open ```assignment.html``` in your browser and ```assignment.css``` in your editor.
 2. Set each container selector to have ```display: flex```
