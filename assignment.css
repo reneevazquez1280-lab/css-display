@@ -1,0 +1,49 @@
+div {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+div img {
+    background: rgb(255, 255, 148);
+    padding: 4px;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.directions {
+    display: flex;
+    align-items: center;
+}
+
+/* Add your properties to the selectors below. Do not change anything above this line */
+
+.container1 {
+    height: 200px;
+    
+}
+
+.container2 {
+    height: 200px;
+    
+}
+
+.container3 {
+    height: 200px;
+    
+}
+
+.container4 {
+    height: 200px;
+    
+}
+
+.container5 {
+    height: 400px;
+    
+}
+
+.container6 {
+    height: 400px;
+    
+}

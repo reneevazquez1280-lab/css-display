@@ -1,12 +1,12 @@
-# css-card
+# css-display
 
 ## Learning Target
-- I am practicing using CSS box-model properties and special selectors
+- I am learning how to use the CSS display property to control how elements are positioned
 
 ## Success Criteria
-- I can set box model properties such as ```padding```, ```margin```, and ```border```
-- I can combine ```:hover``` or ```:active``` with ```::before``` or ```::after``` to insert content when an element is hovered or clicked
-- I can use CSS to create a little Halloween themed game
+- I can describe the difference in behavior between ```display: block``` and ```display: inline``` elements
+- I can set ```display: flex``` on a container element to create a flex container
+- I can use ```flex-direction```, ```justify-content```, and ```align-items``` to 
 
 
 ## Directions
@@ -14,21 +14,24 @@
 2. Follow directions below
 
 ## Assignment
-I've given you the HTML to create a little Halloween game.
-1. First, use CSS to style it to look like the screenshot below. You shouldn't modify the HTML at all, only CSS.  
-    - Look through ```index.html``` to determine what tags, classes, and ids you can use to select elements for styling  
-    ```css
-    tagname {} /* to select by tag name */
-    .classname {} /* to select by class name */
-    #idname {} /* to select by id */
-    .classname tagname {} /* to select a tag inside a class */
-    ```
-    - You will need to set ```background-color```, ```width```, ```padding```, ```margin```, ```border```, ```font-size```, and ```border-radius``` for several different elements
-    - Use ```::after``` to add the ?? after each jack-o-lantern elements.  
-![](screenshot1.png)
-2. Next, use ```:hover``` to make it look like this when each jack-o-lantern is hovered by the mouse.  
-![](screenshot2.png)
-3. Then, use ```:active::after``` to make it so a ☠️ appears when each jack-o-lantern is clicked.  
-![](screenshot3.png)
-4. Finally, use ```:active::after``` to make it so a 👻 appears when *one* of the jack-o-lanterns is clicked. You pick which one.  
-![](screenshot4.png)
+1. Open ```assignment.html``` in your browser and ```assignment.css``` in your editor.
+2. Set each container selector to have ```display: flex```
+3. Add flex properties to each container selector to style them to look like the images. **DO NOT CHANGE ANY OTHER CSS PROPERTIES**
+
+### Container 1
+![](assets/container1.png)
+
+### Container 2
+![](assets/container2.png)
+
+### Container 3
+![](assets/container3.png)
+
+### Container 4
+![](assets/container4.png)
+
+### Container 5
+![](assets/container5.png)
+
+### Container 6
+![](assets/container6.png)

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Flex</title>
+    <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+    <h1>Flex Containers</h1>
+    <p>
+        Normally, as you add more HTML elements, they stack vertically on the page.
+        The CSS <code>display: flex</code> property allows us to set additional properties that control how they child elements of a container are arranged.
+    </p>
+    <h2>Flex Container Properties</h2>
+    <table border="1">
+        <tr>
+            <th>Property Name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>display: flex</td>
+            <td>Makes the container a flex container</td>
+        </tr>
+        <tr>
+            <td>flex-direction:</td>
+            <td>Sets which direction the elements are arrange. Row is horizontally, column is vertially</td>
+        </tr>
+        <tr>
+            <td>justify-content:</td>
+            <td>Determines how elements are arranged along the flex direction</td>
+        </tr>
+        <tr>
+            <td>align-items:</td>
+            <td>Determines how elements are arranged along the other direction</td>
+        </tr>
+        <tr>
+            <td>flex-wrap:</td>
+            <td>Determines if elements will wrap to the next line when they run out of space</td>
+        </tr>
+    </table>
+
+    <h2>Flex Container Example</h2>
+    <p>The div below contains three elements: h3, p, and a. Let's try adjusting some flex box properties to see how they work</p>
+    <div class="container">
+        <h3>Example Heading</h3>
+        <p>Example paragraph</p>
+        <a href="#">Example link</a>
+    </div>
+
+    <a href="assignment.html">Go to the assignment</a>
+
+</body>
+</html>

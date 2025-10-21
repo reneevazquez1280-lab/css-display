@@ -1,30 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Special Selectors</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>CSS Display</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <h1>Find the Ghost</h1>
-		
-    <div class="main">
-       <div>
-            <span id="s1" class="square">🎃</span>
-            <span id="s2" class="square">🎃</span>
-            <span id="s3" class="square">🎃</span>
-       </div>
-       <div>
-            <span id="s4" class="square">🎃</span>
-            <span id="s5" class="square">🎃</span>
-            <span id="s6" class="square">🎃</span>
-       </div>
-       <div>
-            <span id="s7" class="square">🎃</span>
-            <span id="s8" class="square">🎃</span>
-            <span id="s9" class="square">🎃</span>
-       </div>
-    </div>
+    <h1>Inline vs. Block Elements</h1>
+
+    <p>
+        By default, HTML elements are either <b>block</b> elements or <b>inline</b> elements.
+    </p>
+
+    <p>
+        Block elements, like the p tag this text is in, start on a new line and take up the entire width of their
+        container. You can see that using the browser inspection tool.
+    </p>
+
+    <p>
+        Inline elements, like <i>this text in an italics tag</i>, continue on the same line and only take up as much space as they need.
+        Also, inline elements are not affect by top and bottom margin.
+    </p>
+
+    <p>
+        You can change whether an element is block or inline using the CSS display property. 
+        Often, you might want to change inline elements to block elements to help with positioning and layout.
+        As a general rule <b>inline elements should NOT contain block elements</b>, but block elements can contain inline or block elements. 
+    </p>
+
+    <table border="1">
+        <tr>
+            <th>Common Block Elements</th>
+            <th>Common Inline Elements</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>h1, h2, ..., h6</li>
+                    <li>p</li>
+                    <li>div</li>
+                    <li>table</li>
+                    <li>ul</li>
+                    <li>ol</li>
+                    <li>li</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>a</li>
+                    <li>img</li>
+                    <li>span</li>
+                    <li>b</li>
+                    <li>i</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <a href="flex.html">Go to flex container example</a>
 </body>
+
 </html>

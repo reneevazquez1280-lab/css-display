@@ -1,0 +1,19 @@
+body {
+    background-color: darkgray;
+}
+
+.container h3 {
+    background-color: red;
+}
+
+.container p {
+    background-color: lightgreen;
+}
+
+.container a {
+    background-color: yellow;
+}
+
+.container {
+    background-color: beige;
+}
