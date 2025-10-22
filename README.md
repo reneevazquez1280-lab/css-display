@@ -1,12 +1,12 @@
 # css-display
 
 ## Learning Target
-- I am learning how to use the CSS display property to control how elements are positioned
+- I am learning how to use the CSS ```display: flex``` property to control how elements are positioned
 
 ## Success Criteria
 - I can describe the difference in behavior between ```display: block``` and ```display: inline``` elements
 - I can set ```display: flex``` on a container element to create a flex container
-- I can use ```flex-direction```, ```justify-content```, and ```align-items``` to 
+- I can use ```flex-direction```, ```justify-content```, and ```align-items``` to control how child elements are positioned
 
 
 ## Directions
