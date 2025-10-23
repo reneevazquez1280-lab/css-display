@@ -19,7 +19,7 @@ div img {
 /* Add your properties to the selectors below. Do not change anything above this line */
 
 .container1 {
-    height: 200%;
+    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -35,7 +35,6 @@ div img {
     align-items: center;
     flex-wrap: wrap;
 
-    
 }
 
 .container3 {
