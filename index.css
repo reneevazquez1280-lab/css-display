@@ -3,5 +3,6 @@ body {
 }
 
 i {
-    background-color: yellow;
+    background-color: darkred;
+    display:block;
 }
