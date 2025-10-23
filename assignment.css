@@ -19,31 +19,60 @@ div img {
 /* Add your properties to the selectors below. Do not change anything above this line */
 
 .container1 {
-    height: 200px;
-    
+    height: 200%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+
 }
 
 .container2 {
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
     
 }
 
 .container3 {
     height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    flex-wrap: wrap;
     
 }
 
 .container4 {
     height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
     
 }
 
 .container5 {
     height: 400px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container6 {
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
     
 }
